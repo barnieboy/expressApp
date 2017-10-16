@@ -1,0 +1,25 @@
+h1{
+    font-size: 30px;
+    color: #141313;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+.btn-group{
+    float: right;
+    margin-left: 50%;
+    margin:10px;
+
+}
+
+.navbar-inverse {
+    background-color: #545750;
+    border-color: #545750;
+}
+.table{
+    width: 80%;
+    margin-left: 10%;
+}
+
+

@@ -1,0 +1,26 @@
+{
+  "name": "expressapp",
+  "version": "1.0.0",
+  "description": "express app with nodejs handlebars mysql",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tadesse Tegena",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.1.0",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.4.2",
+    "orm": "^4.0.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "underscore": "^1.8.3"
+  }
+}

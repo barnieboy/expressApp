@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="/css/login.css">
+
+
+
+
+<div class="login-page">
+  {{#if sucess}} {{else}}
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  {{message}}
+</div>
+{{/if}}
+  <div class="form">
+    <form name="login" method="post" action="http://localhost:3000/login">
+
+
+      <input type="text" placeholder="Email" name="email" />
+
+
+      <input type="password" placeholder="Password" name="password" />
+
+
+      <button type="submit">Login</button>
+      <p class="message">Not registered? <a href="/register">Create an account</a></p>
+    </form>
+  </div>
+
+</div>
