@@ -9,16 +9,16 @@ var ProductSchema = require('../models/product.model');
 var modelList = {};
 var opts = {
         host: '127.0.0.1',
-        database: 'ormdb',
+        database:'ormdb',
         protocol: 'mysql',
         port: '3306',
         username: 'root',
-        password: "ermymyson2009",
+        password: "root",
         query: { pool: true }
 };
 
 
-//function to connect to mysql database using orm method connectAsync
+//okfunction to connect to mysql database using orm method connectAsync
 exports.connect = function (callback) {
 
         orm.connectAsync(opts)
